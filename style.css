@@ -21,13 +21,13 @@ header {
 }
 
 #gallery-link {
-  left: 76%;
-  top: 6%;
-  position: relative;
+  left: 85%;
+  position: absolute;
+  top: 2%;
 }
 
 #contact-link {
-  top: 6%;
-  left: 2.75%;
-  position: relative;
+  left: 5%;
+  position: absolute;
+  top: 2%;
 }
