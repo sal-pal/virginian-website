@@ -11,5 +11,23 @@ body {
 header {
   background-color: #1e1f1f;
   height: 25%;
-  width: 100%;
+}
+
+.header-links {
+  color: #fff9f0;
+  font-family: helvetica;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+#gallery-link {
+  left: 76%;
+  top: 6%;
+  position: relative;
+}
+
+#contact-link {
+  top: 6%;
+  left: 2.75%;
+  position: relative;
 }
