@@ -12,6 +12,14 @@ body {
 header {
   background-color: #1e1f1f;
   height: 25%;
+  color: #fff9f0;
+}
+
+#logo {
+  max-width: 35%;
+  position: absolute;
+  left: 31%;
+  top: 2%;
 }
 
 .header-links {
@@ -31,4 +39,23 @@ header {
   left: 5%;
   position: absolute;
   top: 2%;
+}
+
+h2 {
+  font-family: Georgia;
+  font-family: Sancreek;
+  position: relative;
+  top: 15%;
+  left: 20%;
+}
+
+p {
+  padding-left: 13%;
+  padding-right: 20%;
+  position: relative;
+  top: 15%;
+}
+
+img {
+  float: right;
 }
