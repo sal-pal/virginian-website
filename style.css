@@ -10,15 +10,15 @@ body {
 }
 
 header {
+  color: #fff9f0;
   background-color: #1e1f1f;
   height: 25%;
-  color: #fff9f0;
 }
 
 #logo {
+  left: 31%;
   max-width: 35%;
   position: absolute;
-  left: 31%;
   top: 2%;
 }
 
@@ -41,12 +41,18 @@ header {
   top: 2%;
 }
 
+div {
+  left: 70%;
+  position: absolute;
+  top: 22%;
+}
+
 h2 {
   font-family: Georgia;
   font-family: Sancreek;
+  left: 20%;
   position: relative;
   top: 15%;
-  left: 20%;
 }
 
 p {
