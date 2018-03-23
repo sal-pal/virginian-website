@@ -3,23 +3,13 @@ html {
 }
 
 body {
-  background-color: #fff9f0;
   height: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 header {
   color: #fff9f0;
   background-color: #1e1f1f;
   height: 25%;
-}
-
-#logo {
-  left: 31%;
-  max-width: 35%;
-  position: absolute;
-  top: 2%;
 }
 
 .header-links {
@@ -29,22 +19,14 @@ header {
   text-decoration: none;
 }
 
-#gallery-link {
-  left: 85%;
-  position: absolute;
-  top: 2%;
-}
-
 #contact-link {
-  left: 5%;
-  position: absolute;
-  top: 2%;
+  padding-right: 20%;
 }
 
 div {
   left: 70%;
   position: absolute;
-  top: 22%;
+  top: 21%;
 }
 
 h2 {
