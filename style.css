@@ -7,11 +7,18 @@ body {
 }
 
 header {
-  color: #fff9f0;
   background-color: #1e1f1f;
   height: 25%;
 }
 
-#contact-link {
-  padding-right: 20%;
+.header-links {
+  color: #fff9f0;
+  font-family: helvetica;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.header-links:hover {
+  color: #fff9f0;
+  text-decoration: none;
 }
