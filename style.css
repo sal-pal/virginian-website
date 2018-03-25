@@ -28,3 +28,14 @@ header {
   max-width: 40%;
   position: absolute;
 }
+
+div {
+  left: 70%;
+  position: absolute;
+  top: 22%;
+}
+
+h2 {
+  font-family: Georgia;
+  font-family: Sancreek;
+}
