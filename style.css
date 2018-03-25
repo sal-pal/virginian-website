@@ -22,3 +22,9 @@ header {
   color: #fff9f0;
   text-decoration: none;
 }
+
+.logo {
+  left: 29%;
+  max-width: 40%;
+  position: absolute;
+}
