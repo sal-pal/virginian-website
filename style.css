@@ -8,7 +8,16 @@ body {
 
 header {
   background-color: #1e1f1f;
+  color: #fff9f0;
   height: 25%;
+}
+
+.contact-info {
+  font-size: 11px;
+}
+
+#address {
+  margin-top: 10px;
 }
 
 .header-links {
@@ -34,6 +43,7 @@ header {
   font-family: Georgia;
   font-family: Sancreek;
   padding-top: 4%;
+  font-size: 1vh 1vw;
 }
 
 .intro-body {
