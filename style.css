@@ -51,6 +51,10 @@ header {
   border-radius: 0;
 }
 
+.content-container {
+  margin-left: 25%;
+}
+
 .intro-header {
   color: #1e1f1f;
   font-family: Georgia;
