@@ -51,19 +51,21 @@ header {
   border-radius: 0;
 }
 
-.content-container {
-  margin-left: 25%;
-}
-
 .intro-header {
   color: #1e1f1f;
   font-family: Georgia;
   font-family: Sancreek;
   padding-top: 4%;
   font-size: 1vh 1vw;
+  padding-left: 30%;
+  padding-bottom: 2%;
 }
 
 .intro-body {
-  text-align: justify;
-  width: 53%;
+  width: 90%;
+  padding-left: 25%;
+}
+
+.media {
+  padding-top: 35%;
 }
