@@ -9,7 +9,7 @@ body {
 header {
   background-color: #1e1f1f;
   color: #fff9f0;
-  height: 25%;
+  height: 18%;
 }
 
 .contact-info {
@@ -35,11 +35,11 @@ header {
 .logo {
   padding-left: 15%;
   max-width: 80%;
-  margin-top: 2%;
+  margin-top: -2%;
 }
 
 .icon-wrapper {
-  margin-top: 24%;
+  margin-top: 19%;
   margin-left: 32%;
 }
 
@@ -49,6 +49,11 @@ header {
 
 .scl-med-icons:hover {
   color: #fff9f0;
+}
+
+#custmzed-navbar {
+  background-color: #1e1f1f;
+  border-radius: 0;
 }
 
 .intro-header {
