@@ -68,4 +68,13 @@ header {
 
 .media {
   padding-top: 35%;
+
+}
+
+.gallery-grid {
+  padding-top: 5%;
+}
+
+.non-first-row {
+  padding-top: 2%;
 }
