@@ -8,7 +8,6 @@
     <link rel="stylesheet" type="text/css" href="/style.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Sancreek" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
   </head>
@@ -35,16 +34,20 @@
       <a class="header-links pull-right header-links" style="padding-left:1%; padding-right:1%" href="#">History</a>
       <a class="header-links pull-right header-links" href="gallery.html"> Gallery </a>
     </nav>
-    <div class="content-container container">
+    <div class="intro-wrapper container">
         <div class="row">
-          <div class="col-md-8">
+          <div class="col-md-7">
             <h2 class="intro-header"> Welcome to the Virginian!! </h2>
             <p class="intro-body">
                "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
             </p>
           </div>
-          <div class="col-md-4">
-            <div id="homepage-slideshow" class="carousel slide" data-ride="carousel" data-interval="600">
+          <div class="col-md-5">
+            <div id="intro-slideshow" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#intro-slideshow" data-slide-to="0" class="active"></li>
+                <li data-target="#intro-slideshow" data-slide-to="1"></li>
+              </ol>
               <div class="carousel-inner" role="list">
                 <div class="item active">
                   <img class="d-block img-fluid" src="https://d2z0k43lzfi12d.cloudfront.net/blog/vcdn215/wp-content/uploads/2017/06/15.06._Running-Stamina-1-800x510.jpg">
@@ -58,5 +61,7 @@
         </div>
       </div>
     </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"  crossorigin="anonymous"></script>
   </body>
 </html>

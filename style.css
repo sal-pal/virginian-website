@@ -1,9 +1,11 @@
 html {
   height: 100%;
+  width: 100%;
 }
 
 body {
   height: 100%;
+  width: 100%;
 }
 
 header {
@@ -77,4 +79,14 @@ header {
 
 .non-first-row {
   padding-top: 2%;
+}
+
+.intro-wrapper {
+  position: relative;
+  right: 3%;
+  top: 5%;
+}
+
+#intro-slideshow {
+  margin-top: 15%;
 }
