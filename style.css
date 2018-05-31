@@ -17,9 +17,18 @@ header {
 }
 
 
+footer {
+  background-color: #1e1f1f;
+  height: 10%;
+}
+
+
 .contact-info {
+  color: #fff9f0;
   font-size: 11px;
-  font-size: 1.40vh;
+  font-size: 1.25vh;
+  text-align: center;
+  margin-top: .5%;
 }
 
 
@@ -54,6 +63,8 @@ header {
 
 .scl-med-icons {
   color: #fff9f0;
+  display: inline-block;
+  margin-top: .5%;
 }
 
 
