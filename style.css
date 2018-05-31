@@ -32,15 +32,11 @@ footer {
 }
 
 
-#address {
-  margin-top: 10px;
-}
-
 
 .header-links {
   color: gray;
   font-family: helvetica;
-  font-size: 1.35em;
+  font-size: 3.5em;
   margin-right: 12%;
   margin-top: 6.5%;
   text-decoration: none;
@@ -55,8 +51,8 @@ footer {
 
 .logo {
   margin-left: 40%;
-  margin-top: .75%;
-  max-width: 20%;
+  margin-top: 3%;
+  max-width: 40%;
 }
 
 
@@ -64,12 +60,22 @@ footer {
   color: #fff9f0;
   display: inline-block;
   margin-top: .5%;
+  font-size: 1.25em;
 }
+
 
 
 .scl-med-icons:hover {
   color: #fff9f0;
 }
+
+
+
+#fb-icon {
+  font-size: 1.9em;
+  margin-left: 49%;
+}
+
 
 
 .intro-body {
@@ -106,6 +112,11 @@ footer {
 
 /** Styling for mobile **/
 @media only screen and (max-width: 767px) {
+
+  footer {
+    height: 12%;
+  }
+
   .header-links {
     font-size: 1em;
     margin-top: 15%;
@@ -115,9 +126,25 @@ footer {
   .logo {
     display: inline-block;
     margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
     max-width: 45%;
   }
+
+
+  .scl-med-icons {
+    color: #fff9f0;
+    display: inline-block;
+    margin-top: .5%;
+    font-size: .9em;
+  }
+
+
+
+  #fb-icon {
+    font-size: 1.25em;
+    margin-left: 45%;;
+  }
+
 
 
   .intro-body {
@@ -131,8 +158,17 @@ footer {
     max-width: 100%;
     width: 90%;
     margin: auto;
-    margin-top: 12%;
+    margin-top: 5%;
     margin-bottom: 10%;
+  }
+
+
+  .contact-info {
+    color: #fff9f0;
+    font-size: 11px;
+    font-size: 1.45vh;
+    text-align: center;
+    margin-top: 1%;
   }
 }
 
@@ -148,8 +184,23 @@ footer {
   .logo {
     display: inline-block;
     margin-left: 10%;
-    margin-top: 5%;
+    margin-top: 10%;
     max-width: 40%;
+  }
+
+
+  .scl-med-icons {
+    color: #fff9f0;
+    display: inline-block;
+    margin-top: .5%;
+    font-size: 1.35em;
+  }
+
+
+
+  #fb-icon {
+    font-size: 2.25em;
+    margin-left: 45%;;
   }
 
 
@@ -166,5 +217,14 @@ footer {
     margin: auto;
     margin-top: 12%;
     margin-bottom: 10%;
+  }
+
+
+  .contact-info {
+    color: #fff9f0;
+    font-size: 11px;
+    font-size: 1.65vh;
+    text-align: center;
+    margin-top: 1%;
   }
 }
