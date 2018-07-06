@@ -27,8 +27,8 @@ footer {
   color: #fff9f0;
   font-size: 11px;
   font-size: 1.25vh;
-  text-align: center;
   margin-top: .5%;
+  text-align: center;
 }
 
 
@@ -74,21 +74,16 @@ footer {
 
 
 #fb-icon {
-  margin-left: 48.5%;
   font-size: 1.5em;
+  margin-left: 48.5%;
 }
 
 
-.intro-body {
-  width: 25%;
-  margin: auto;
-  margin-top: 4%;
+.intro-text {
   font-size: 2vh;
-}
-
-
-.gallery-grid {
-  padding-top: 5%;
+  margin: auto;
+  margin-top: 2%;
+  width: 25%;
 }
 
 
@@ -105,9 +100,15 @@ footer {
 
 
 #intro-slideshow {
-  margin-top: 3.5%;
   margin-left: 37%;
+  margin-top: 2%;
   max-width: 25%;
+}
+
+
+.gallery-grid {
+  padding-bottom: 7%;
+  padding-top: 3%;
 }
 
 
@@ -135,32 +136,31 @@ footer {
   .scl-med-icons {
     color: #fff9f0;
     display: inline-block;
-    margin-top: .5%;
     font-size: .9em;
+    margin-top: .5%;
   }
 
 
 
   #fb-icon {
+    margin-left: 45%;
     font-size: 1.25em;
-    margin-left: 45%;;
   }
 
 
-
-  .intro-body {
-    width: 90%;
+  .intro-text {
     margin: auto;
     margin-top: 5%;
+    width: 90%;
   }
 
 
   #intro-slideshow {
+    margin: auto;
+    margin-bottom: 15%;
+    margin-top: 5%;
     max-width: 100%;
     width: 90%;
-    margin: auto;
-    margin-top: 5%;
-    margin-bottom: 15%;
   }
 
 
@@ -168,16 +168,14 @@ footer {
     color: #fff9f0;
     font-size: 11px;
     font-size: 1.45vh;
-    text-align: center;
     margin-top: 1%;
+    text-align: center;
   }
 }
 
 
 /** Styling for tablet **/
 @media only screen and (min-width: 768px) and (max-width: 1366px) {
-
-
   .header-links {
     font-size: 2em;
     margin-top: 15%;
@@ -195,10 +193,9 @@ footer {
   .scl-med-icons {
     color: #fff9f0;
     display: inline-block;
-    margin-top: .5%;
     font-size: 1.35em;
+    margin-top: .5%;
   }
-
 
 
   #fb-icon {
@@ -207,19 +204,19 @@ footer {
   }
 
 
-  .intro-body {
-    width: 90%;
+  .intro-text {
     margin: auto;
     margin-top: 3.5%;
+    width: 90%;
   }
 
 
   #intro-slideshow {
     max-width: 100%;
-    width: 90%;
     margin: auto;
-    margin-top: 6%;
     margin-bottom: 10%;
+    margin-top: 6%;
+    width: 90%;
   }
 
 
@@ -227,7 +224,7 @@ footer {
     color: #fff9f0;
     font-size: 11px;
     font-size: 1.65vh;
-    text-align: center;
     margin-top: 1%;
+    text-align: center;
   }
 }
