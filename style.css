@@ -80,8 +80,10 @@ footer {
 
 
 .intro-text {
-  font-size: 2vh;
-  margin: auto;
+  font-size: 20px;
+  font-size: 3vh;
+  font-family: Sancreek;
+  margin-left: 40.5%;
   margin-top: 2%;
   width: 25%;
 }
@@ -89,13 +91,6 @@ footer {
 
 .non-first-row {
   padding-top: 2%;
-}
-
-
-.intro-wrapper {
-  position: relative;
-  right: 3%;
-  top: 5%;
 }
 
 
@@ -150,7 +145,7 @@ footer {
 
 
   .intro-text {
-    margin: auto;
+    margin-left: 16%;
     margin-top: 5%;
     width: 90%;
   }
@@ -206,8 +201,8 @@ footer {
 
 
   .intro-text {
-    margin: auto;
-    margin-top: 3.5%;
+    margin-left: 20%;
+    margin-top: 8%;
     width: 90%;
   }
 
